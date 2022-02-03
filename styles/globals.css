@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
 html,
 body {
   padding: 0;
@@ -13,4 +15,122 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.head{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logotitle{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
+  font-size: 23px!important;
+}
+.logopad{
+  padding-left: 88px!important;
+  padding-top: 5px;
+  padding-bottom: 5px!important;
+}
+.logopa{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
+  color: #696969!important;
+}
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.btncolor:hover {
+  background-image: none !important;
+  background-color: black !important;
+  border: solid white 1px;
+}
+.fab:hover {
+  color:white;
+}
+.btncolor{
+  background-color: white!important;
+}
+.footerback{
+  background-color: #F2EEEE;
+}
+.colfooter{
+  margin-top: 20px!important;
+  margin-bottom: 20px!important;
+}
+.colhlogo{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  color:black;
+}
+
+
+.headupper {
+  background-color:#F2EEEE;
+  width: 100%;
+}
+
+.headicon{
+  color: black;
+  text-decoration: none;
+}
+.headicon:hover{
+  color: black!important;
+}
+.headmargin{
+  margin-top: 5px!important;
+  margin-bottom: 5px!important;
+}
+.iconhead {
+  color: black;
+  text-decoration: none;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .head {
+      height:50px;
+  } }
+  .navbar-light .navbar-toggler {
+    background-color: #F2EEEE;
+    border-color: rgba(0,0,0,.1);
+}
+.py-3 {
+  padding-top: 0rem!important;
+  padding-bottom: 1rem!important;
+}
+.carousel-caption {
+  position: absolute;
+  top: 150px;
+  right: 16%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+.Carouselpic{
+  position: absolute;
+  right: 15%!important;
+  bottom: 1.25rem!important;
+  left: 15%!important;
+  padding-top: 5.25rem!important;
+  padding-bottom: 1.25rem!important;
+  text-align: center!important;
+}
+.bcolor{
+  text-decoration: none;
+  background-color: #F2EEEE!important;
+  color:black !important;
+  border: 1px solid #F2EEEE!important;
+}
+.icon{
+  color: white;
 }
